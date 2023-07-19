@@ -1,0 +1,28 @@
+.formWrapper {
+  @include flex-all-center;
+  padding-top: 1rem;
+}
+.formRegister {
+  @include flex-align-column;
+  width: 43.75rem;
+  @media (max-width: 1440.98px) {
+    width: 50vw;
+  }
+  input,
+  label {
+    margin-bottom: 1rem;
+  }
+  &__buttons {
+    display: flex;
+    @media (max-width: 375.98px) {
+      flex-direction: column;
+    }
+    margin-top: 1rem;
+    :not(:last-child) {
+      margin-right: 1rem;
+      @media (max-width: 375.98px) {
+        margin-right: 0;
+      }
+    }
+  }
+}

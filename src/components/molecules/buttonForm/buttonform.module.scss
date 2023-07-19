@@ -1,0 +1,19 @@
+.buttonForm {
+  border-radius: 2rem;
+  background: var(--blue);
+  padding: 0.625rem;
+  width: 9.375rem;
+
+  color: #fff;
+  font-family: Inter;
+  font-size: 0.938rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: var(--transition-ease);
+  &:hover,
+  &:focus {
+    background: var(--ligter-blue-hover2);
+    color: rgb(41, 15, 15);
+  }
+}

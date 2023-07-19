@@ -1,0 +1,83 @@
+@import "./fonts";
+@import "./container";
+@import "./normalize";
+@import "./mixins";
+@import "./_vars.scss";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+}
+.main {
+  flex: 1 1 auto;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+button {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+input {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
+}
+.mainpage {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+}

@@ -1,0 +1,8 @@
+export const USER_LOGIN_ACCES = 'USER_LOGIN_ACCES'
+export const USER_LOGIN_DENIED = 'USER_LOGIN_DENIED'
+
+export const USER_REGISTER = 'USER_REGISTER'
+export const LOGOUT = 'LOGOUT'
+export const UPDATE_DATA = 'UPDATE_DATA'
+
+export const CLEAR_DATA = 'CLEAR_DATA'

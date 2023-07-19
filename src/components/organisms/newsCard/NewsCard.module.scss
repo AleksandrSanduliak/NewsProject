@@ -1,0 +1,88 @@
+.cardnews {
+  color: black;
+  max-width: 30vw;
+  border-radius: 0.5rem;
+  background: white;
+  box-shadow: 0 0 3.75rem 0 rgba(25, 90, 148, 0.15);
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  @media (max-width: 991.98px) {
+    max-width: none;
+    width: 100%;
+    height: 550px;
+    padding: 1.5rem;
+  }
+  @media (max-width: 768.98px) {
+    max-width: none;
+    width: 100%;
+    height: 400px;
+    padding: 1rem;
+  }
+  &__img {
+    border-radius: 0.5rem;
+    height: 10.625rem;
+    object-fit: contain;
+    @media (max-width: 768.98px) {
+      height: 7.625rem;
+    }
+    @media (max-width: 500.98px) {
+      height: 8.625rem;
+    }
+  }
+  &__title {
+    color: #195a94;
+
+    font-family: Montserrat;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.063rem;
+
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 4.438rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    @media (max-width: 768.98px) {
+      font-size: 0.8rem;
+      height: 2.5rem;
+      margin: 0.5rem 0 0.5rem 0;
+    }
+  }
+  &__desc,
+  &__author {
+    color: #747474;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.563rem;
+    @media (max-width: 768.98px) {
+      font-size: 0.8rem;
+    }
+  }
+  &__desc {
+    flex: 1;
+    height: 7.813rem;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+    overflow: hidden;
+    @media (max-width: 991.98px) {
+      height: 4.25rem;
+    }
+    @media (max-width: 768.98px) {
+      height: 3.25rem;
+      flex: 1;
+    }
+  }
+  &__author {
+    font-size: 0.813rem;
+    line-height: 1.875rem;
+    font-weight: 600;
+  }
+}

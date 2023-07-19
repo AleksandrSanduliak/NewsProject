@@ -1,0 +1,23 @@
+.input {
+  width: 95%;
+  padding: 0.625rem 1rem;
+  border-radius: 2rem;
+  border: 0.125rem solid var(--ligter-blue);
+  transition: var(--transition-ease);
+  margin-bottom: 1rem;
+
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Inter;
+  font-size: 0.938rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  &:focus,
+  &:hover {
+    border-color: var(--ligter-blue-hover);
+    outline: none;
+  }
+  @media (max-width: 768.98px) {
+    @include adaptiv-value(width, 30, 17, 1);
+  }
+}

@@ -1,0 +1,33 @@
+.formWrapper {
+  @include flex-all-center;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+.formLogin {
+  @include flex-all-center;
+  flex-direction: column;
+  max-width: 25rem;
+  margin-bottom: 1.5rem;
+  @media (max-width: 1440.98px) {
+    width: 30vw;
+  }
+}
+input {
+  border: 1px solid black;
+  margin-bottom: 0.5rem;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+}
+button {
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  border: 0.125rem solid teal;
+  margin-bottom: 1rem;
+}
+.registerBlock {
+  @include flex-all-center;
+  flex-direction: column;
+  button {
+    margin-top: 1.5rem;
+  }
+}

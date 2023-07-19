@@ -1,0 +1,8 @@
+.notlogined {
+  margin-top: 2rem;
+  @include flex-align-column;
+  &__text {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}

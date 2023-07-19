@@ -1,0 +1,17 @@
+.CardDate {
+  @include flex-v-center;
+  margin-top: 1rem;
+  &__dateblock {
+    color: #747474;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 1.44px;
+    padding: 0 1rem;
+  }
+  &__img {
+    width: 24px;
+    height: 24px;
+  }
+}
