@@ -1,5 +1,6 @@
 # NewsProject
 Стэк: react, redux, saga, react-router, SCSS
+
 Дополнительно:
 
 -axios - для запросов на newsapi.org
