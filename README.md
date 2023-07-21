@@ -3,11 +3,11 @@
 
 Дополнительно:
 
--axios - для запросов на newsapi.org
+*axios - для запросов на newsapi.org
 
--react-loading-skeleton - для UI во вреия загрузки новостей
+*react-loading-skeleton - для UI во вреия загрузки новостей
 
--redux-devtools-extension - для отладки, тестирования работы приложения.
+*redux-devtools-extension - для отладки, тестирования работы приложения.
 
 Реализовано:
 
